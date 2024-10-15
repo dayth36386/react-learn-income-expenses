@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif Thai", serif;
+  font-optical-sizing: auto;
+  -webkit-user-select: none; /* สำหรับเบราว์เซอร์ที่ใช้ WebKit เช่น Chrome, Safari */
+  -moz-user-select: none; /* สำหรับเบราว์เซอร์ที่ใช้ Mozilla เช่น Firefox */
+  -ms-user-select: none; /* สำหรับเบราว์เซอร์ที่ใช้ Microsoft */
+  user-select: none; /* มาตรฐานสำหรับเบราว์เซอร์ทั่วไป */
+}
+body {
+  background-image: linear-gradient(
+    to top,
+    rgb(238, 107, 255),
+    rgb(0, 225, 255),
+    rgb(108, 55, 255)
+  );
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.App {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 30px;
+  width: 600px;
+  color: rgb(252, 252, 252);
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(56, 56, 56, 0.4);
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
